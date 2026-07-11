@@ -17,7 +17,7 @@ const IMAGES = [
     span: '',
   },
   {
-    src: 'https://images.pexels.com/photos/28080/pexels-photo/pexels-photo-28080.jpeg?auto=compress&cs=tinysrgb&w=700',
+    src: '/dumbbell-rack.png',
     alt: 'Black and white dumbbell rack, dramatic lighting',
     span: '',
   },
@@ -25,12 +25,7 @@ const IMAGES = [
     src: 'https://images.pexels.com/photos/1638324/pexels-photo-1638324.jpeg?auto=compress&cs=tinysrgb&w=700',
     alt: 'Black and white gym interior with heavy equipment, dramatic lighting',
     span: '',
-  },
-  {
-    src: 'https://images.pexels.com/photos/7030121/pexels-photo-7030121.jpeg?auto=compress&cs=tinysrgb&w=900',
-    alt: 'Black and white athlete mid-squat in power rack, chalk dust in the air',
-    span: 'lg:col-span-2',
-  },
+  }
 ];
 
 export function Gallery() {
@@ -69,10 +64,10 @@ export function Gallery() {
                 <img
                   src={img.src}
                   alt={img.alt}
-                  className="w-full h-full object-cover grayscale contrast-120 group-hover:scale-105 group-hover:grayscale-[40%] transition-all duration-700"
+                  className="w-full h-full object-cover grayscale contrast-120 group-hover:scale-105 group-hover:grayscale-0 transition-all duration-700"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-ink/10 group-hover:bg-ink/0 transition-colors duration-500" />
+                <div className="absolute inset-0 bg-ink/10 group-hover:bg-ink/0 transition-colors duration-500 pointer-events-none" />
               </div>
             </Reveal>
           ))}

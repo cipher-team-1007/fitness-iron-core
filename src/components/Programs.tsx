@@ -60,10 +60,10 @@ export function Programs() {
                   <img
                     src={program.img}
                     alt={`Black and white ${program.title} training action shot, dramatic lighting`}
-                    className="w-full h-full object-cover grayscale contrast-125 group-hover:scale-105 group-hover:grayscale-[60%] transition-all duration-700"
+                    className="w-full h-full object-cover grayscale contrast-125 group-hover:scale-105 group-hover:grayscale-0 transition-all duration-700"
                     loading="lazy"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/20 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/20 to-transparent pointer-events-none" />
                   <span className="absolute top-4 left-4 text-[10px] font-grotesk font-bold uppercase tracking-widest text-bone bg-ink/60 backdrop-blur px-3 py-1.5 rounded-[2px] border border-ash-300">
                     {program.tag}
                   </span>
