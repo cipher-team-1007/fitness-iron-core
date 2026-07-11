@@ -61,6 +61,9 @@ Here are previews of the website components:
 ### 5. Coaches Profiles
 ![Coaches Profiles](screenshots/coaches.png)
 
+### 6. Contact & Enquiries Form
+![Contact & Enquiries](screenshots/contact.png)
+
 ---
 
 ## ✨ Features
