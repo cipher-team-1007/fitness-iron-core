@@ -4,63 +4,6 @@ A premium, hardcore web application for **Gravity Fitness Gym** in Patna — the
 
 ---
 
-## 📸 Quick Preview
-
-Below are screenshots of the key sections of the web application:
-
-<table>
-  <tr>
-    <td align="center"><b>🔥 Hero Section</b></td>
-    <td align="center"><b>💪 Programs</b></td>
-  </tr>
-  <tr>
-    <td><img src="screenshots/hero.png" width="100%" alt="Hero Section"/></td>
-    <td><img src="screenshots/programs.png" width="100%" alt="Programs Section"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>📅 Class Schedule</b></td>
-    <td align="center"><b>🎟️ Membership Plans</b></td>
-  </tr>
-  <tr>
-    <td><img src="screenshots/schedule.png" width="100%" alt="Class Schedule"/></td>
-    <td><img src="screenshots/membership.png" width="100%" alt="Membership Plans"/></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><b>🧠 Coaches</b></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="screenshots/coaches.png" width="70%" alt="Coaches Profiles"/></td>
-  </tr>
-</table>
-
----
-
-## ✨ Features
-
-- **Modern Dark & Hardcore Aesthetic**: Custom dark color palette (`ink` & `ash` gray shades) highlighted with high-contrast `blood` red accents.
-- **Cinematic Film Grain Overlay**: Immersive visual atmosphere utilizing a high-performance SVG noise overlay.
-- **Sleek Custom Scrollbar**: Premium custom scrollbar matching the dark theme of the website with animated hover transitions to the signature red color.
-- **Interactive Component Layouts**:
-  - **Programs Grid**: Spotlighting Powerlifting, Strength & Conditioning, Bodybuilding, etc.
-  - **Coaches Profiles**: Displaying the lifting credentials and specializations of the training team.
-  - **Interactive Timetable**: Clean horizontal scrollable timetable displaying weekly class slots.
-  - **Membership Packages**: Visual tier cards comparing Basic, Pro, and Elite levels.
-  - **Contact & Enquiries Form**: Fully functional lead generation form integrated with a backend database.
-- **Framer Motion Animations**: Reveal animations and scroll-triggered transitions for interactive feedback.
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend Core**: [React 18](https://react.dev/) & [TypeScript](https://www.typescriptlang.org/)
-- **Bundler**: [Vite](https://vite.dev/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) (with custom extensions)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Backend/Database Integration**: [Supabase Client](https://supabase.com/)
-
----
-
 ## 🚀 Getting Started
 
 Follow these steps to run the project locally on your machine:
@@ -96,6 +39,53 @@ To build the application for deployment:
 npm run build
 ```
 The output files will be generated inside the `dist/` directory.
+
+---
+
+## 📸 Screenshots
+
+Here are previews of the website components:
+
+### 1. Hero Section (Banner)
+![Hero Section](screenshots/hero.png)
+
+### 2. Programs Grid
+![Programs Section](screenshots/programs.png)
+
+### 3. Class Schedule
+![Class Schedule](screenshots/schedule.png)
+
+### 4. Membership Plans
+![Membership Plans](screenshots/membership.png)
+
+### 5. Coaches Profiles
+![Coaches Profiles](screenshots/coaches.png)
+
+---
+
+## ✨ Features
+
+- **Modern Dark & Hardcore Aesthetic**: Custom dark color palette (`ink` & `ash` gray shades) highlighted with high-contrast `blood` red accents.
+- **Cinematic Film Grain Overlay**: Immersive visual atmosphere utilizing a high-performance SVG noise overlay.
+- **Sleek Custom Scrollbar**: Premium custom scrollbar matching the dark theme of the website with animated hover transitions to the signature red color.
+- **Interactive Component Layouts**:
+  - **Programs Grid**: Spotlighting Powerlifting, Strength & Conditioning, Bodybuilding, etc.
+  - **Coaches Profiles**: Displaying the lifting credentials and specializations of the training team.
+  - **Interactive Timetable**: Clean horizontal scrollable timetable displaying weekly class slots.
+  - **Membership Packages**: Visual tier cards comparing Basic, Pro, and Elite levels.
+  - **Contact & Enquiries Form**: Fully functional lead generation form integrated with a backend database.
+- **Framer Motion Animations**: Reveal animations and scroll-triggered transitions for interactive feedback.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend Core**: [React 18](https://react.dev/) & [TypeScript](https://www.typescriptlang.org/)
+- **Bundler**: [Vite](https://vite.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) (with custom extensions)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Backend/Database Integration**: [Supabase Client](https://supabase.com/)
 
 ---
 
