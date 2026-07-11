@@ -1,18 +1,21 @@
-# 🏋️‍♂️ Gravity Fitness Gym
+# Gravity Fitness Gym
 
 A premium, hardcore web application for **Gravity Fitness Gym** in Patna — the ultimate training ground for powerlifters, strongmen, and strength athletes. Built with a focus on raw aesthetics, premium dark-mode visuals, and smooth interactive elements.
 
----
 
-## 🚀 Getting Started
+
+## Getting Started
 
 Follow these steps to run the project locally on your machine:
 
 ### 1. Prerequisites
+
 Make sure you have [Node.js](https://nodejs.org/) installed (v18+ recommended).
 
 ### 2. Installation
+
 Clone the repository and install the dependencies:
+
 ```bash
 git clone https://github.com/cipher-team-1007/fitness-iron-core.git
 cd fitness-iron-core
@@ -20,53 +23,58 @@ npm install
 ```
 
 ### 3. Environment Setup
+
 Create a `.env` file in the root directory and add your Supabase credentials:
+
 ```env
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
 ### 4. Running the Development Server
+
 Start the Vite local dev server:
+
 ```bash
 npm run dev
 ```
+
 Open your browser and navigate to `http://localhost:5173`.
 
 ### 5. Build for Production
+
 To build the application for deployment:
+
 ```bash
 npm run build
 ```
+
 The output files will be generated inside the `dist/` directory.
 
 ---
 
 ## 📸 Screenshots
 
-Here are previews of the website components:
 
-### 1. Hero Section (Banner)
 ![Hero Section](screenshots/hero.png)
 
-### 2. Programs Grid
+
 ![Programs Section](screenshots/programs.png)
 
-### 3. Class Schedule
+
 ![Class Schedule](screenshots/schedule.png)
 
-### 4. Membership Plans
+
 ![Membership Plans](screenshots/membership.png)
 
-### 5. Coaches Profiles
+
 ![Coaches Profiles](screenshots/coaches.png)
 
-### 6. Contact & Enquiries Form
 ![Contact & Enquiries](screenshots/contact.png)
 
 ---
 
-## ✨ Features
+## Features
 
 - **Modern Dark & Hardcore Aesthetic**: Custom dark color palette (`ink` & `ash` gray shades) highlighted with high-contrast `blood` red accents.
 - **Cinematic Film Grain Overlay**: Immersive visual atmosphere utilizing a high-performance SVG noise overlay.
@@ -81,7 +89,7 @@ Here are previews of the website components:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend Core**: [React 18](https://react.dev/) & [TypeScript](https://www.typescriptlang.org/)
 - **Bundler**: [Vite](https://vite.dev/)
@@ -92,7 +100,7 @@ Here are previews of the website components:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 fitness-iron-core/
